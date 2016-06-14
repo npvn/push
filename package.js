@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'raix:push',
+  name: 'npvn:push',
   version: '3.0.3-rc.5',
   summary: 'Isomorphic Push notifications for APN and GCM',
   git: 'https://github.com/raix/push.git'
@@ -12,7 +12,7 @@ Npm.depends({
 });
 
 Cordova.depends({
-  'phonegap-plugin-push': '1.6.4', // 1.3.0
+  'phonegap-plugin-push': 'https://github.com/npvn/phonegap-plugin-push.git#f22c271596cd713a30992cc6be7bc86fedc304bf',
   'cordova-plugin-device': '1.1.1',
 });
 
